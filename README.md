@@ -93,14 +93,6 @@ To run the tests for CacheDB, use the following command:
 
 You can view the test report in the `build/reports/tests/test/index.html` file.
 
-### Architecture
-
-CacheDB is designed with a focus on modularity and scalability. The architecture consists of the following components:
-
-- **Command Processor**: Parses and executes user commands.
-- **Cache Storage**: Manages the in-memory storage of key-value pairs with support for TTL.
-- **Data Structures**: Utilizes concurrent data structures to ensure thread safety.
-- **Persistence Layer**: Provides mechanisms for saving and loading data.
 
 ### Contributing
 
